@@ -105,6 +105,7 @@ type CreateLabelOptions struct {
 	Name        *string `url:"name,omitempty" json:"name,omitempty"`
 	Color       *string `url:"color,omitempty" json:"color,omitempty"`
 	Description *string `url:"description,omitempty" json:"description,omitempty"`
+	Priority    uint8   `url:"priority,omitempty" json:"priority,omitempty"`
 }
 
 // CreateLabel creates a new label for given repository with given name and
